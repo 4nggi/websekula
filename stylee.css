@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  position: relative;
+}
+
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+}
+
+.navbar .hamburger span {
+  color: #c81c1c;
+}
+
+.navbar .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-brand img {
+  width: 45px;
+  height: 45px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.navbar .navbar-brand h1 {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+}
+.title {
+  margin: 150px auto 30px auto;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+}
+.title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 25px;
+  text-align: center;
+}
+
+.title p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.perGaleri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.perGaleri img {
+  width: 250px;
+  height: 150px;
+  margin: 5px;
+}
+.sambutan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sambutan h1 {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.sambutan p {
+  font-style: italic;
+  font-size: 1rem;
+}
+.kepsek {
+  background-image: url("../images/bg-visimisi.png");
+  margin: 30px 0;
+}
+
+.kepsek .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kepsek .container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kepsek .container .visiMisi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kepsek .container .visiMisi .visi {
+  margin: 0 50px 0 100px;
+}
+
+.kepsek .container .visiMisi .visi h5 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.kepsek .container .visiMisi .visi h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.kepsek .container .visiMisi .misi h5 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.kepsek .container .visiMisi .misi p {
+  font-size: 1.2rem;
+  font-family: 'PT Serif', sans-serif;
+}
+
+.containercontent .foto img {
+  width: 40%;
+  height:10px;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+.footer {
+  background-color: #263238;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-top: 125px;
+}
+.perFooterContactUs p {
+    font-size: .9em;
+}
