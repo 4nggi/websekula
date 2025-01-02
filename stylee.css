@@ -3,9 +3,9 @@
 *,
 *::before,
 *::after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .body {
@@ -14,8 +14,8 @@
 
 .navbar {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
 }
 
@@ -28,23 +28,23 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar .navbar-brand img {
   width: 45px;
   height: 45px;
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .navbar .navbar-brand h1 {
   font-size: 1.2rem;
   margin-left: 10px;
-  font-family: 'Viga', sans-serif;
+  font-family: "Viga", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
-  color: #fff;
+  color: #0a0101;
 }
 .nav-item {
   position: relative;
@@ -54,7 +54,6 @@
   position: absolute;
   left: 0;
 }
-
 
 .navbar-custom {
   background-color: #008080;
@@ -75,8 +74,6 @@
   font-weight: bold;
   margin-left: 10px;
 }
-
-
 
 .title {
   margin: 150px auto 30px auto;
@@ -107,13 +104,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .perGaleri img {
@@ -126,15 +123,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   padding: 30px 0;
 }
@@ -164,7 +161,7 @@
   height: 300px;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .kepsek .container .visiMisi {
@@ -172,8 +169,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .kepsek .container .visiMisi .visi {
@@ -198,12 +195,12 @@
 
 .kepsek .container .visiMisi .misi p {
   font-size: 1.2rem;
-  font-family: 'PT Serif', sans-serif;
+  font-family: "PT Serif", sans-serif;
 }
 
 .containercontent .foto img {
   width: 40%;
-  height:10px;
+  height: 10px;
   border-radius: 5%;
   margin-bottom: 10px;
 }
@@ -214,5 +211,5 @@
   margin-top: 125px;
 }
 .perFooterContactUs p {
-    font-size: .9em;
+  font-size: 0.9em;
 }
